@@ -1,0 +1,57 @@
+
+Soc_econ -> 
+  (gndr (remove 9), #categorical
+  agea (remove 999),
+  eisced (remove 55, 77, 88, 99) highest level of education
+  domicil (remove 7, 8, 9), #categorical #city vs town etc
+  emplrel (remove 6, 7, 8, 9),#categorical #self employed or employed or fam business
+  wrkctra (remove 6-9), #categorical, contract duration
+  tporgwk (remove 66 to 99), #categorical #type of organisation
+  wrkac6m (remove 6 to 9), #categorical, worked abroad?
+  uemp12m (remove 6 to 9), #categorical, unemployed for 12+ months
+  hinctnta (remove 77, 88, 99),#ordinal, decile of household income
+  hincfel (remove 7 to 9), #ordinal, feeling about household income
+  health (remove 7, 8, 9), #how do you define your health
+  )
+
+Wellbeing ->
+  sclmeet (remove 77, 88, 99) #how often meet friends #ordinal
+  aesfdrk (remove 7, 8, 9) #safe in dark
+  hlthhmp (remove 7, 8, 9) #hampered by illness # 3 option
+  
+  
+
+personal values ->
+  (ipcrtiv (remove 7 to 9), #ordinal, importance creativity
+  imprich (remove 7, to 9), #ordinal, important rich
+  ipeqopt (remove 7 to 9), #ordinal, importance equality
+  ipshabt (remove 7 to 9), #ordinal, important show abilities and be admired
+  impsafe (remove 7 to 9), #ordinal, importance living in safe place
+  impdiff (remove 7 to 9), #ordinal, importnace try new things
+  ipfrule (remove 7 to 9), #ordinal, imp following rules
+  ipudrst (remove 7 to 9), #ordinal, imp understainding different people
+  ipmodst (remove 7 to 9), #ordinal, important to be humble
+  ipgdtim (remove 7 to 9), #ordinal, imp having a good time
+  impfree (remove 7 to 9), #ordinal, importance to make own decisions
+  iphlppl (remove 7 to 9), #ordinal, imp help and care for others
+  ipsuces (remove 7 to 9), #ordinal, important to be successful
+  ipstrgv (remove 7 to 9), #ordinal, important to have strong government ensuring safety
+  ipadvnt (remove 7 to 9), #ordinal, important to seek adventure
+  ipbhprp (remove 7 to 9), #ordinal, imp to behave properly
+  iprspot (remove 7 to 9), #ordinal, imp to get respect from others
+  iplylfr (remove 7 to 9), #ordinal, imp to be loyal to friends
+  impenv (remove 7 to 9), #ordinal, imp to care for environment
+  imptrad (remove 7 to 9), #ordinal, impt to follow tradition
+  impfun (remove 7 to 9), #ordinal,imp to seek fun things
+  )
+  
+
+pol_engagement -> 
+
+climate_change -> 
+  (clmchng (remove 7, 8, 9), 
+  clmthgt2 (remove 6-9),
+  ccrdprs (remove 66 to 99),
+  wrclmch (remove 6 to 9)
+  
+
